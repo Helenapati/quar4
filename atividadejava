@@ -1,0 +1,39 @@
+package unidade3;
+
+public class primeira1 {
+
+  public abtract class Triangulo{
+    private int base;
+    private double altura;
+  }
+   
+  public Triângulo(int base, double altura){
+    this.base = base;
+    this.altura = altura; 
+  }
+  
+  public static void setbase(int base){
+    Triangulo.base = base;
+  }
+  
+  public static void getbase() {
+    return base;
+  }
+  
+  public static void setaltura(double altura){
+    Triangulo.altura = altura;
+  }
+  
+  public static void getaltuta(){
+    return altura;
+  }
+  
+  public double calcularDimesoesInvalidas(int base, double altura);
+   throws DimesoesInvalidasException{
+     double DimesoesInvalidas = (base*altura)/(2);
+     if (base ou altura = 0){
+       throws DimesoesInvalidasException("Dimensões Inválidas");
+     }
+   }
+  
+}
